@@ -2,10 +2,11 @@
     "name": "spidertron-logistics",
     "version": "2.1.6",
     "title": "Spidertron Logistics System",
-    "author": "notnotmelon",
+    "author": "OndrejMusil",
     "factorio_version": "1.1",
-    "dependencies": ["base", 
-        "?equipment-gantry",
+    "dependencies": [
+        "base >= 1.1.0", 
+        "?equipment-gantry >= 0.1.5",
         "?Insectitron >= 1.1.1"
     ],
     "description": "Adds Spidertron requester and provider chests. Allows you to create a fully automated Spidertron logistics system. UPS optimized."
