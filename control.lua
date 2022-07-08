@@ -361,13 +361,15 @@ end)
 
 local function register_spider_safe(entity)
 	local grid = entity.grid
-	local controller_count = grid.get_contents()[spidertron_logistic_controller]
-	if grid and controller_count ~= 0 and controller_count ~= nil then
-		register_spider(entity)
-		
-		if controller_count > 1 then
-			grid.inhibit_movement_bonus = true
-			entity.active = false
+	if grid ~= nil then
+		local controller_count = grid.get_contents()[spidertron_logistic_controller]
+		if grid and controller_count ~= 0 and controller_count ~= nil then
+			register_spider(entity)
+			
+			if controller_count > 1 then
+				grid.inhibit_movement_bonus = true
+				entity.active = false
+			end
 		end
 	end
 end
