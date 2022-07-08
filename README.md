@@ -7,3 +7,4 @@ Changes:
 - If mod Insectitronics (https://mods.factorio.com/mod/Insectitron) is installed, prerequisity for Spidertron logistic system is changed from Spidertron to Insectitron
   - Works with Space Exploration 0.6
 - Updated dependecied to latest versions
+- Fixed runtime error when placing moded spidertron without grid
