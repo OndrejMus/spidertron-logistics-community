@@ -1,6 +1,6 @@
 data.raw['utility-constants']['default'].main_menu_simulations.spidertron_logistics = {
 	checkboard = false,
-	save = '__spidertron-logistics__/menu-simulations/menu-simulation-spidertron-logistics.zip',
+	save = '__spidertron-logistics-community__/menu-simulations/menu-simulation-spidertron-logistics.zip',
 	length = 60 * 15,
 	init = [[
 		local logo = game.surfaces.nauvis.find_entities_filtered{name = 'factorio-logo-11tiles', limit = 1}[1]

@@ -1,4 +1,4 @@
-require '__spidertron-logistics__/menu-simulations/menu-simulations' 
+require '__spidertron-logistics-community__/menu-simulations/menu-simulations' 
 
 -- Mod check and prerequisity update approach stealed from https://github.com/ArcaniVictus/Hovercrafts/blob/master/data.lua
 if mods["Insectitron"] then

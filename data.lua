@@ -1,7 +1,7 @@
 local circuit_connections = require 'circuit-connections'
 
 local nothing = {
-	filename = '__spidertron-logistics__/graphics/nothing.png',
+	filename = '__spidertron-logistics-community__/graphics/nothing.png',
 	priority = 'extra-high',
 	size = 1
 }
@@ -10,7 +10,7 @@ data:extend{
 	{
 		type = 'item',
 		name = 'spidertron-requester-chest',
-		icon = '__spidertron-logistics__/graphics/icon/spidertron-requester-chest.png',
+		icon = '__spidertron-logistics-community__/graphics/icon/spidertron-requester-chest.png',
 		icon_size = 64,
 		stack_size = 50,
 		place_result = 'spidertron-requester-chest',
@@ -20,7 +20,7 @@ data:extend{
 	{
 		type = 'item',
 		name = 'spidertron-provider-chest',
-		icon = '__spidertron-logistics__/graphics/icon/spidertron-provider-chest.png',
+		icon = '__spidertron-logistics-community__/graphics/icon/spidertron-provider-chest.png',
 		icon_size = 64,
 		stack_size = 50,
 		place_result = 'spidertron-provider-chest',
@@ -30,7 +30,7 @@ data:extend{
 	{
 		type = 'item',
 		name = 'spidertron-logistic-controller',
-		icon = '__spidertron-logistics__/graphics/icon/spidertron-logistic-controller.png',
+		icon = '__spidertron-logistics-community__/graphics/icon/spidertron-logistic-controller.png',
 		icon_size = 64,
 		icon_mipmaps = 4,
 		stack_size = 10,
@@ -41,7 +41,7 @@ data:extend{
 	{
 		type = 'item',
 		name = 'spidertron-logistic-beacon',
-		icon = '__spidertron-logistics__/graphics/icon/spidertron-logistic-beacon.png',
+		icon = '__spidertron-logistics-community__/graphics/icon/spidertron-logistic-beacon.png',
 		icon_size = 64,
 		stack_size = 50,
 		place_result = 'spidertron-logistic-beacon',
@@ -55,15 +55,15 @@ data:extend{
 	{
 		type = 'container',
 		name = 'spidertron-provider-chest',
-		icon = '__spidertron-logistics__/graphics/icon/spidertron-provider-chest.png',
+		icon = '__spidertron-logistics-community__/graphics/icon/spidertron-provider-chest.png',
 		icon_size = 64,
 		inventory_size = 50,
 		picture = {layers = {
 			{
-				filename = '__spidertron-logistics__/graphics/entity/spidertron-provider-chest.png',
+				filename = '__spidertron-logistics-community__/graphics/entity/spidertron-provider-chest.png',
 				height = 100,
 				hr_version = {
-					filename = '__spidertron-logistics__/graphics/entity/hr-spidertron-provider-chest.png',
+					filename = '__spidertron-logistics-community__/graphics/entity/hr-spidertron-provider-chest.png',
 					height = 199,
 					priority = 'high',
 					scale = 0.5,
@@ -74,11 +74,11 @@ data:extend{
 			},
 			{
 				draw_as_shadow = true,
-				filename = '__spidertron-logistics__/graphics/entity/shadow.png',
+				filename = '__spidertron-logistics-community__/graphics/entity/shadow.png',
 				height = 75,
 				hr_version = {
 					draw_as_shadow = true,
-					filename = '__spidertron-logistics__/graphics/entity/hr-shadow.png',
+					filename = '__spidertron-logistics-community__/graphics/entity/hr-shadow.png',
 					height = 149,
 					priority = 'high',
 					scale = 0.5,
@@ -112,16 +112,16 @@ data:extend{
 	},
 	{
 		type = 'container',
-		icon = '__spidertron-logistics__/graphics/icon/spidertron-requester-chest.png',
+		icon = '__spidertron-logistics-community__/graphics/icon/spidertron-requester-chest.png',
 		icon_size = 64,
 		name = 'spidertron-requester-chest',
 		inventory_size = 50,
 		picture = {layers = {
 			{
-				filename = '__spidertron-logistics__/graphics/entity/spidertron-requester-chest.png',
+				filename = '__spidertron-logistics-community__/graphics/entity/spidertron-requester-chest.png',
 				height = 100,
 				hr_version = {
-					filename = '__spidertron-logistics__/graphics/entity/hr-spidertron-requester-chest.png',
+					filename = '__spidertron-logistics-community__/graphics/entity/hr-spidertron-requester-chest.png',
 					height = 199,
 					priority = 'high',
 					scale = 0.5,
@@ -132,11 +132,11 @@ data:extend{
 			},
 			{
 				draw_as_shadow = true,
-				filename = '__spidertron-logistics__/graphics/entity/shadow.png',
+				filename = '__spidertron-logistics-community__/graphics/entity/shadow.png',
 				height = 75,
 				hr_version = {
 					draw_as_shadow = true,
-					filename = '__spidertron-logistics__/graphics/entity/hr-shadow.png',
+					filename = '__spidertron-logistics-community__/graphics/entity/hr-shadow.png',
 					height = 149,
 					priority = 'high',
 					scale = 0.5,
@@ -184,7 +184,7 @@ data:extend{
 			type = 'electric',
 		},
 		sprite = {
-			filename = '__spidertron-logistics__/graphics/equipment/spidertron-logistic-controller.png',
+			filename = '__spidertron-logistics-community__/graphics/equipment/spidertron-logistic-controller.png',
 			size = {32, 32}
 		}
 	},
@@ -235,7 +235,7 @@ data:extend{
 	{
 		type = 'technology',
 		name = 'spidertron-logistic-system',
-		icon = '__spidertron-logistics__/graphics/technology/spidertron-logistics-system.png',
+		icon = '__spidertron-logistics-community__/graphics/technology/spidertron-logistics-system.png',
 		icon_size = 128,
 		effects = {
 			{
@@ -313,7 +313,7 @@ data:extend{
 		collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
 		selection_box = {{-1, -1}, {1, 1}},
 		flags = {'placeable-neutral', 'player-creation'},
-		icon = '__spidertron-logistics__/graphics/icon/spidertron-logistic-beacon.png',
+		icon = '__spidertron-logistics-community__/graphics/icon/spidertron-logistic-beacon.png',
 		icon_size = 64,
 		logistics_connection_distance = 18
 	}
