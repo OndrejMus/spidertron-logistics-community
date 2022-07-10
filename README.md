@@ -1,4 +1,4 @@
-# Spidertron logistics community
+# Spidertron logistics (community)
 Copy of Factorio mod https://mods.factorio.com/mod/spidertron-logistics <br>
 Source files used based on MIT license.
 
