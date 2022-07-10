@@ -1,13 +1,15 @@
 {
     "name": "spidertron-logistics",
-    "version": "2.1.6",
-    "title": "Spidertron Logistics System",
-    "author": "OndrejMusil",
+    "version": "2.1.7",
+    "title": "Spidertron Logistics System (community)",
+    "author": "notnotmelon",
+    "contact": "https://github.com/OndrejMus/spidertron-logistics-community/issues",
     "factorio_version": "1.1",
     "dependencies": [
         "base >= 1.1.0", 
         "?equipment-gantry >= 0.1.5",
-        "?Insectitron >= 1.1.1"
+        "?Insectitron >= 1.1.1",
+        "?spidertrontiers-community-updates >= 0.2.26"
     ],
     "description": "Adds Spidertron requester and provider chests. Allows you to create a fully automated Spidertron logistics system. UPS optimized."
 }

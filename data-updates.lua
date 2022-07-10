@@ -5,3 +5,8 @@ if mods["Insectitron"] then
     table.remove(data.raw.technology["spidertron-logistic-system"].prerequisites, 1)
     table.insert(data.raw.technology["spidertron-logistic-system"].prerequisites, "insectitron")
 end
+
+if mods["spidertrontiers-community-updates"] then
+    table.remove(data.raw.technology["spidertron-logistic-system"].prerequisites, 1)
+    table.insert(data.raw.technology["spidertron-logistic-system"].prerequisites, "spidertron_mk0")
+end
