@@ -1,4 +1,6 @@
 # Spidertron logistics (community)
+Changes are merged to original mod, use it instead.
+
 Updated version of notnotmelons's Spidertron Logistics System mod (https://mods.factorio.com/mod/spidertron-logistics) for Factorio. <br>
 Source files used based on MIT license, updated version also under MIT license. <br>
 Originaly created for peronal purposes. I'm happy to merge or transfer repository if author would like to use changes.
